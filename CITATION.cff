@@ -1,0 +1,10 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Peres, Lees, Rodriguez, Lee, Polak, Hope, Collins, Ohlin, Kleinstein, Watson, Yaari
+    given-names: Ayelet, William, Oscar L., Noah Y., Pazit, Ronen, Andrew, Mats, Steven H., Corey, Gur
+    orcid: https://orcid.org/0000-0003-4925-7248
+title: "Allele similarity cluster archive for IGHV alleles germline set"
+version: 1.0.0
+doi: 10.5281/zenodo.7401190
+date-released: 2022-11-05
