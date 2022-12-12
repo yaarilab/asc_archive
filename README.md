@@ -29,7 +29,9 @@ Even though, we wish that all repertoires data available will cover the entire V
 
 ## Files
 
-### asc_hclust_tree.txt
+The addition S2_frw1 to the files is an artificial reference set mimicking the BIOMED-2 primers for FRW1 region as described above.
+
+### asc_hclust_tree.txt and asc_hclust_tree_S2_frw1.txt
 
 This file includes the IGHV germline set clustering dendrogram.
 
@@ -40,11 +42,11 @@ library(ape)
 h <- ape::read.tree(file='asc_hclust_tree.txt')
 ```
 
-### asc_IGHV_dendrogram.pdf
+### asc_IGHV_dendrogram.pdf and asc_IGHV_dendrogram_S2_frw1.pdf
 
 The dendrogram of the IGHV germline set, based on complete linkage. 
 
-### asc_cluster_cut.tsv
+### asc_cluster_cut.tsv and cluster_cut_S2_frw1.tsv
 
 This file shows the ASC clusters by the cutting the trees to heights 0.05 for the clusters and 0.25 for the families
 
@@ -55,7 +57,7 @@ The table columns:
 - `ASC_Family_0.25` - the ASC family number
 
 
-### asc_alleles_table.tsv
+### asc_alleles_table.tsv and asc_alleles_table_S2_frw1.tsv
 
 This file includes the ASC names for the IUIS/IMGT alleles of the IGHV germline set (July 2022).
 
